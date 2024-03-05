@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Header'
-import Hero from './Hero'
+import {Header, Hero, Blog, Contact, Experience, Footer, Portfolio, Services, Skills, Testimonials} from "./components"
 
 function App() {
   const [count, setCount] = useState(0)

@@ -18,16 +18,16 @@ import loc from "./loc.svg"
 import logo from "./logo.svg"
 import moon from "./moon.svg"
 import phone from "./phone.svg"
-import portfolio1 from "./portfolio1.jpg"
-import portfolio2 from "./portfolio2.jpg"
-import portfolio3 from "./portfolio3.jpg"
+import portfolio_1 from "./portfolio-1.jpg"
+import portfolio_2 from "./portfolio-2.jpg"
+import portfolio_3 from "./portfolio-3.jpg"
 import react from "./react.svg"
 import rightArrow from "./right-arrow.svg"
 import sass from "./sass.svg"
 import sun from "./sun.svg"
-import thumbnail from "./Thumbnail.jpg"
-import thumbnail2 from "./Tthumbnail2.jpg"
-import thumbnail3 from "./Tthumbnail3.jpg"
+import thumbnail_1 from "./Thumbnail-1.jpg"
+import thumbnail_2 from "./Thumbnail-2.jpg"
+import thumbnail_3 from "./Thumbnail-3.jpg"
 import twitter from "./Twitter.svg"
 import xmarkSolidWhite from "./xmark-solid white.svg"
 import xmarkSolid from "./xmark-solid.svg"
@@ -55,16 +55,16 @@ export default {
     logo,
     moon,
     phone,
-    portfolio1,
-    portfolio2,
-    portfolio3,
+    portfolio_1,
+    portfolio_2,
+    portfolio_3,
     react,
     rightArrow,
     sass,
     sun,
-    thumbnail,
-    thumbnail2,
-    thumbnail3,
+    thumbnail_1,
+    thumbnail_2,
+    thumbnail_3,
     twitter,
     xmarkSolidWhite,
     xmarkSolid,

@@ -13,20 +13,13 @@ const Header = () => {
                     Ihor
                 </a>
                 <nav className="nav">
-                    <ul className="menu">
-                        <li className="menu-item">
-                            <a href="" className="menu-link">Services</a>
-                        </li>
-                        <li className="menu-item">
-                            <a href="" className="menu-link">Portfolios</a>
-                        </li>
-                        <li className="menu-item">
-                            <a href="" className="menu-link">Experience</a>
-                        </li>
-                        <li className="menu-item">
-                            <a href="" className="menu-link">Blog</a>
-                        </li>
-                    </ul>
+                    {
+                        ["Services", "Portfolios", "Experience", "Blog"].map((item, idx) => (
+                            <button className="menu-link" key={idx}>
+                                {item}
+                            </button>
+                        ))
+                    }
                 </nav>
                 <div className="header-block">
                     <button className="btn switch-btn"></button>
