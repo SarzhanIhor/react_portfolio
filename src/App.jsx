@@ -9,7 +9,9 @@ function App() {
     <Header/>
     <main>
       <Hero/>
+      <Services/>
     </main>
+
   </>
   
 }
