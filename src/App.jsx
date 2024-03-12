@@ -10,6 +10,7 @@ function App() {
     <main>
       <Hero/>
       <Services/>
+      <Portfolio/>
     </main>
 
   </>

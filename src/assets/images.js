@@ -31,6 +31,7 @@ import thumbnail_3 from "./Thumbnail-3.jpg"
 import twitter from "./Twitter.svg"
 import xmarkSolidWhite from "./xmark-solid white.svg"
 import xmarkSolid from "./xmark-solid.svg"
+import linksvg from "./link.svg"
 
 
 
@@ -68,4 +69,5 @@ export default {
     twitter,
     xmarkSolidWhite,
     xmarkSolid,
+    linksvg,
 }
