@@ -11,6 +11,7 @@ function App() {
       <Hero/>
       <Services/>
       <Portfolio/>
+      <Experience/>
     </main>
 
   </>

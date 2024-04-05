@@ -5,7 +5,7 @@ import images from '../assets/images'
 import { FaLink } from "react-icons/fa6";
 
 const Portfolio = () => {
-  const [isActive, setIsActive] = useState(true)
+  const [activeButton, setActiveButton] = useState(null);
   const customSlider = React.createRef()
   const settings = {
     infinity: true,
@@ -15,24 +15,23 @@ const Portfolio = () => {
   }
   const next = () => {
     customSlider.current.slickNext();
-    setIsActive(!isActive)
-  }
+    setActiveButton('next'); // Установка кнопки next как активной
+  };
   const previous = () => {
     customSlider.current.slickPrev();
-    setIsActive(!isActive)
-  }
+    setActiveButton('prev'); // Установка кнопки prev как активной
+  };
   return (
     <section className="portfolio container">
             <span className="inner-subtitle">MY WORKS</span>
             <h2 className="inner-title">Featured Portfolios
             </h2>
             <>
-              <button onClick={() => previous()} className={isActive ? "btn btn-prev btn-slider slick-arrow active" : "btn btn-prev btn-slider slick-arrow"}>
-                <img src={images.leftArrow} alt="arrow" />
+            <button onClick={previous} className={`btn btn-prev btn-slider slick-arrow ${activeButton === 'prev' ? 'active' : ''}`}>
+              <img src={images.leftArrow} alt="arrow" />
               </button>
-              <button onClick={() => next()} className={!isActive ? "btn btn-next btn-slider slick-arrow active" : "btn btn-next btn-slider slick-arrow"}>
+              <button onClick={next} className={`btn btn-next btn-slider slick-arrow ${activeButton === 'next' ? 'active' : ''}`}>              
               <img src={images.rightArrow} alt="arrow" />
-
               </button>
               </>
             <Slider {...settings} ref={customSlider} className="portfolio-slider slider">
