@@ -1,4 +1,16 @@
 import React from 'react'
+import { FaHtml5, FaSass, FaCss3Alt, FaReact,  } from "react-icons/fa";
+import { BiLogoJavascript } from "react-icons/bi";
+import { SiVite } from "react-icons/si";
+
+/* 
+<FaHtml5 />
+<FaCss3Alt /> 
+<FaSass />
+<BiLogoJavascript />
+<FaReact />
+<SiVite />
+*/
 
 const Services = () => {
 return (
@@ -6,7 +18,6 @@ return (
   <h2 className="services-title inner-title">
     <span className="inner-subtitle">SERVICES</span>
     Specialized in
-
   </h2>
   <div className="container services-wrapper">
     <div className="services-block">
