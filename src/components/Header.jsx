@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Header = () => {
+    const [isSticky, setIsSticky] = useState(false)
+
+    useEffect(() => {
+      const handleScroll = () => {
+        setIsSticky(window.scrollY > 1)
+      }
+      window.addEventListener('scroll', handleScroll)
+      return () => {
+        window.removeEventListener('scroll', handleScroll)
+      }
+    }, [])
+    
+
   return (
     <header className="header">
-        <div className="header-fixed">
+        <div className={`header-fixed ${isSticky ? "sticky" : ""}`}>
             <div className="container header-wrapper">
                 <a href="" className="header-logo">
                     <svg width="40" height="41" viewBox="0 0 40 41" xmlns="http://www.w3.org/2000/svg">

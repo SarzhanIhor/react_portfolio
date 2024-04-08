@@ -12,6 +12,7 @@ function App() {
       <Services/>
       <Portfolio/>
       <Experience/>
+      <Blog />
     </main>
 
   </>

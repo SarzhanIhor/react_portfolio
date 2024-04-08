@@ -7,6 +7,7 @@ const Experience = () => {
   const selectTab = (index) => {
     setActiveTab(index)
   }
+  
 
   return (
     <section className="experience container">

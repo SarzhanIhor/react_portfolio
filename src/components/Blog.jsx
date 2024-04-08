@@ -1,13 +1,23 @@
 import React from 'react'
 import images from "../assets/images"
+import {news} from "../constants/data"
+import New from './New'
 
 const Blog = () => {
+    // console.log(news);
   return (
     <section className="blog">
             <span className="inner-subtitle blog-subtitle">MY ARTICLES</span>
             <h2 className="inner-title blog-title">Personal Blog</h2>
             <div className="container blog-wrapper">
-                <div className="news">
+                {
+                    news.map(item => {
+                        return (
+                            <New key={item.id} {...item}/>
+                        )
+                    })
+                }
+                {/* <div className="news">
                     <figure><img src={images.thumbnail_1} alt="" /></figure>
                     <p className="news-title">How to prototype in figma
                     </p>
@@ -38,7 +48,7 @@ const Blog = () => {
                         ante scelerisque laoreet. Fusce finibus ...
                     </p>
                     <a href="" className="news-link">Continue Reading </a>
-                </div>
+                </div> */}
             </div>
         </section>
   )

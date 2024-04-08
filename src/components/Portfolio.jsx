@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Slider from 'react-slick'
-import { sliders } from '../constants/sliders'
+import { sliders } from '../constants/data'
 import images from '../assets/images'
 import { FaLink } from "react-icons/fa6";
 
