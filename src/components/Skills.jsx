@@ -36,11 +36,11 @@ const Skills = () => {
                         <span className="skills-line css"></span>
                     </p>
                     <p className="skills-experience">
-                        <span className="skills-title-exp">scss</span>
+                        <span className="skills-title-exp">React</span>
                         <span className="skills-line scss"></span>
                     </p>
                     <p className="skills-experience">
-                        <span className="skills-title-exp">jquery</span>
+                        <span className="skills-title-exp">JS</span>
                         <span className="skills-line jquery"></span>
                     </p>
                 </div>
