@@ -13,8 +13,11 @@ function App() {
       <Portfolio/>
       <Experience/>
       <Blog />
+      <Testimonials/>
+      <Skills/>
+      <Contact/>
     </main>
-
+    <Footer/>
   </>
   
 }

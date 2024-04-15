@@ -59,3 +59,34 @@ export const news = [
     },
     
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        image: images.client,
+        name: "Amelia Miller",
+        job: "Designer",
+        text: "We were very pleased to hear how you resolved our website's user interface issues and challenges.",
+    },
+    {
+        id: 2,
+        image: images.client2,
+        name: "James Delaney",
+        job: "Developer",
+        text: "We were very pleased to hear how you resolved our website's user interface issues and challenges.",
+    },
+    {
+        id: 3,
+        image: images.client3,
+        name: "Isabella Bennett",
+        job: "Manager",
+        text: "We were very pleased to hear how you resolved our website's user interface issues and challenges.",
+    },
+    {
+        id: 4,
+        image: images.client2,
+        name: "Amelia Miller",
+        job: "Designer",
+        text: "We were very pleased to hear how you resolved our website's user interface issues and challenges.",
+    },
+]

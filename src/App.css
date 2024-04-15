@@ -850,8 +850,9 @@ body.hidden {
 }
 .testimonials-slider .slick-dots {
   position: absolute;
+  z-index: 10;
   left: 50%;
-  display: flex;
+  display: flex !important;
   gap: 10px;
   bottom: -20px;
   transform: translateX(-50%);
@@ -1098,7 +1099,7 @@ body.hidden {
   display: block;
   margin-top: 4px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   color: #656D72;
 }
@@ -1147,7 +1148,7 @@ body.hidden {
   width: 24px;
   height: 24px;
 }
-.footer .social li a svg {
+.footer .social a svg {
   fill: #656D72;
 }
 .footer .copyright {
