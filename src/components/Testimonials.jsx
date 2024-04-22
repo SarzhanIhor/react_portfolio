@@ -15,7 +15,7 @@ const Testimonials = () => {
     <section className="testimonials container">
             <span className="testimonials-subtitle inner-subtitle">MY CLIENTS</span>
             <h2 className="testimonials-title inner-title">Testimonials</h2>
-            <Slider className='testimonials-slider' {...settings}>
+            <Slider className='testimonials-slider slick-initialized slick-slider slick-dotted' {...settings}>
               {
                 testimonials.length > 0 ? (
                   testimonials.map(element => {

@@ -4,7 +4,7 @@ import { FaGithub, FaFacebookF, FaLinkedinIn  } from "react-icons/fa";
 const Footer = () => {
   const year = new Date()
   return (
-    <footer class="footer">
+    <footer className="footer">
         <div className="hero-social social">
             {
                 [<FaGithub />, <FaFacebookF />, <FaLinkedinIn />].map((icon, idx) => (
@@ -14,7 +14,7 @@ const Footer = () => {
                 ))
             }
         </div>
-        <p class="copyright">© {year.getFullYear()}  -  DevChapter</p>
+        <p className="copyright">© {year.getFullYear()}  -  DevChapter</p>
     </footer>
   )
 }
